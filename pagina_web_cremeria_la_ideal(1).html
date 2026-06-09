@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Transformación Digital con Equidad | Cremería La Ideal</title>
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:Arial, Helvetica, sans-serif;line-height:1.6;color:#102033;background:#eef7f5}
+    header{min-height:88vh;background:linear-gradient(rgba(6,24,39,.65),rgba(6,24,39,.65)),url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80') center/cover;display:flex;flex-direction:column;color:white}
+    nav{display:flex;justify-content:space-between;align-items:center;padding:22px 8%;background:rgba(8,30,50,.82)}
+    nav h2{letter-spacing:.5px}
+    nav a{color:white;text-decoration:none;margin-left:20px;font-weight:bold}
+    .hero{flex:1;display:flex;align-items:center;padding:0 8%}
+    .hero-box{max-width:850px}
+    .tag{display:inline-block;background:#8bc34a;color:#0b241a;padding:10px 18px;border-radius:25px;font-weight:bold;margin-bottom:20px}
+    h1{font-size:3.2rem;line-height:1.1;margin-bottom:20px}
+    .hero p{font-size:1.2rem;max-width:720px}
+    section{padding:60px 8%}
+    h2{color:#0d3b5c;font-size:2rem;margin-bottom:18px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:22px}
+    .card{background:white;border-radius:18px;padding:25px;box-shadow:0 8px 25px rgba(0,0,0,.08);border-top:6px solid #4caf50}
+    .card h3{color:#176b87;margin-bottom:12px}
+    .dark{background:#102033;color:white}
+    .dark h2,.dark h3{color:#b7f0d2}
+    .table{width:100%;border-collapse:collapse;background:white;border-radius:12px;overflow:hidden;color:#102033}
+    th{background:#176b87;color:white}
+    th,td{padding:14px;border-bottom:1px solid #dde7e4;text-align:left}
+    .steps{counter-reset:item}
+    .step{position:relative;padding-left:55px;margin-bottom:20px}
+    .step:before{counter-increment:item;content:counter(item);position:absolute;left:0;top:0;background:#4caf50;color:white;width:38px;height:38px;border-radius:50%;display:grid;place-items:center;font-weight:bold}
+    footer{background:#071827;color:white;text-align:center;padding:30px 8%}
+    .references li{margin-bottom:10px}
+    .badge{display:inline-block;background:#d9f2e4;color:#0d3b5c;padding:7px 12px;border-radius:20px;margin:5px;font-weight:bold}
+    @media(max-width:700px){h1{font-size:2.2rem}nav{flex-direction:column;gap:12px}.hero{padding-top:50px;padding-bottom:50px}}
+  </style>
+</head>
+<body>
+  <header id="inicio">
+    <nav>
+      <h2>Cremería La Ideal</h2>
+      <div>
+        <a href="#objetivos">Objetivos</a>
+        <a href="#propuesta">Capacitación</a>
+        <a href="#referencias">Referencias</a>
+      </div>
+    </nav>
+    <div class="hero">
+      <div class="hero-box">
+        <span class="tag">Proyecto digital con enfoque inclusivo</span>
+        <h1>Transformación Digital con Equidad</h1>
+        <p><strong>Protocolo de capacitación e inclusión para Cremería La Ideal.</strong><br>
+        Página web orientada a promover la equidad de género, reducir la brecha digital y fortalecer el uso de herramientas tecnológicas en el comercio local.</p>
+      </div>
+    </div>
+  </header>
+
+  <section id="objetivos">
+    <h2>Objetivos del sitio</h2>
+    <div class="grid">
+      <div class="card"><h3>Informar</h3><p>Explicar la importancia de la equidad de género y la inclusión tecnológica en empresas y negocios locales.</p></div>
+      <div class="card"><h3>Sensibilizar</h3><p>Promover una cultura laboral basada en el respeto, la igualdad de oportunidades y la eliminación de estereotipos.</p></div>
+      <div class="card"><h3>Capacitar</h3><p>Proponer herramientas formativas para que mujeres y hombres aprendan por igual el uso de sistemas digitales.</p></div>
+    </div>
+  </section>
+
+  <section class="dark">
+    <h2>¿Qué es la perspectiva de género?</h2>
+    <p>La perspectiva de género es una herramienta de análisis que permite identificar desigualdades entre mujeres y hombres. En el ámbito laboral ayuda a revisar la contratación, los salarios, los ascensos, la capacitación y la cultura organizacional para asegurar que todas las personas tengan las mismas oportunidades.</p>
+    <br>
+    <span class="badge">Igualdad laboral</span>
+    <span class="badge">Respeto</span>
+    <span class="badge">Inclusión</span>
+    <span class="badge">Oportunidades equitativas</span>
+  </section>
+
+  <section>
+    <h2>Nearshoring e industrialización tecnológica</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Fundamentación conceptual</h3>
+        <p>El nearshoring es la reubicación de cadenas de producción y suministro hacia países cercanos a grandes mercados, como México respecto a Estados Unidos. Esto impulsa la modernización tecnológica en empresas grandes, medianas y comercios locales.</p>
+      </div>
+      <div class="card">
+        <h3>Relación con Cremería La Ideal</h3>
+        <p>Aunque la empresa vende lácteos y embutidos, necesita usar tecnología para inventarios digitales, cajas, facturación, terminal bancaria, pedidos y control de refrigeración.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="dark">
+    <h2>Análisis crítico de la brecha digital de género</h2>
+    <table class="table">
+      <tr><th>Indicador</th><th>Participación de mujeres</th><th>Interpretación</th></tr>
+      <tr><td>Profesionistas STEM en México</td><td>3 de cada 10</td><td>Existe baja representación femenina.</td></tr>
+      <tr><td>Graduadas STEM a nivel mundial</td><td>35%</td><td>La formación tecnológica todavía presenta desigualdad.</td></tr>
+      <tr><td>Empleos STEM en países del G20</td><td>22%</td><td>La brecha aumenta al entrar al mercado laboral.</td></tr>
+      <tr><td>Liderazgo STEM mundial</td><td>1 de cada 10</td><td>Hay poca presencia femenina en puestos de liderazgo.</td></tr>
+    </table>
+  </section>
+
+  <section id="propuesta">
+    <h2>Propuesta formativa con enfoque de equidad</h2>
+    <div class="grid">
+      <div class="card"><h3>1. Igualdad de género</h3><p>Temas: perspectiva de género, igualdad de oportunidades, prevención de discriminación, respeto y eliminación de estereotipos laborales.</p></div>
+      <div class="card"><h3>2. Capacitación tecnológica</h3><p>Temas: uso de computadora, Excel básico, inventarios digitales, terminal bancaria, administración digital y pedidos electrónicos.</p></div>
+      <div class="card"><h3>3. Atención al cliente y liderazgo</h3><p>Temas: comunicación efectiva, resolución de conflictos, liderazgo colaborativo y trabajo en equipo para todo el personal.</p></div>
+      <div class="card"><h3>4. Marketing digital</h3><p>Temas: Facebook, Instagram, WhatsApp Business, publicidad digital, diseño básico de publicaciones y atención digital al cliente.</p></div>
+    </div>
+  </section>
+
+  <section class="dark">
+    <h2>Desarrollo funcional de la página web</h2>
+    <div class="steps">
+      <div class="step"><h3>Inicio</h3><p>Presenta el proyecto, la empresa y el propósito general.</p></div>
+      <div class="step"><h3>Información</h3><p>Explica perspectiva de género, nearshoring e industrialización tecnológica.</p></div>
+      <div class="step"><h3>Diagnóstico</h3><p>Muestra datos de la brecha digital de género y su impacto laboral.</p></div>
+      <div class="step"><h3>Capacitación</h3><p>Propone cursos prácticos para mejorar habilidades digitales y liderazgo.</p></div>
+      <div class="step"><h3>Referencias</h3><p>Incluye fuentes académicas en formato APA 7.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Conclusión</h2>
+    <div class="card">
+      <p>La Cremería La Ideal puede fortalecer su organización si incorpora tecnología de forma inclusiva. Capacitar por igual a mujeres y hombres permite reducir desigualdades, mejorar el ambiente laboral y modernizar el negocio. La equidad de género no solo es un valor social, también es una estrategia para lograr una empresa más justa, eficiente y competitiva.</p>
+    </div>
+  </section>
+
+  <section id="referencias">
+    <h2>Referencias APA 7</h2>
+    <ul class="references">
+      <li>Gutiérrez, A. (2023). <em>El potencial de las mujeres STEM ante el nearshoring</em>. IMCO.</li>
+      <li>UNESCO. (2021). <em>Las mujeres están en minoría en los ámbitos de la Industria 4.0</em>.</li>
+      <li>Vázquez, A. (2024). <em>¿Cómo impulsan los parques industriales el nearshoring en México?</em> KPMG.</li>
+      <li>Workbeat. (2023). <em>México y el nearshoring: el combo ganador para RH</em>.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p><strong>Universidad Nacional Rosario Castellanos | Licenciatura en Contaduría y Finanzas</strong></p>
+    <p>Proyecto digital: Cremería La Ideal | 1er semestre, grupo 102</p>
+  </footer>
+</body>
+</html>
